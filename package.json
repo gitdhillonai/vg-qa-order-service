@@ -1,0 +1,11 @@
+{
+  "name": "vg-qa-order-service",
+  "version": "0.1.0",
+  "description": "QA fixture for VulnGraph cross-repo taint validation (synthetic, not a real service)",
+  "main": "src/index.js",
+  "dependencies": {
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "kafkajs": "^2.2.4"
+  }
+}

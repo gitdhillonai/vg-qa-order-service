@@ -1,0 +1,9 @@
+services:
+  order-service:
+    build: .
+    ports:
+      - "3000:3000"
+    depends_on:
+      - kafka
+  kafka:
+    image: bitnami/kafka:3.7

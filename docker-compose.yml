@@ -1,0 +1,7 @@
+services:
+  order-service:
+    image: node:20-alpine
+    ports:
+      - "3001:3001"
+  kafka:
+    image: confluentinc/cp-kafka:latest
